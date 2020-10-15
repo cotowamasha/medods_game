@@ -1,0 +1,76 @@
+.title
+  color: $black2
+  margin-bottom: 50px
+
+.game
+  display: flex
+  align-items: flex-start
+  justify-content: center
+
+.game-field
+  margin-right: 50px
+
+  &--flex
+    display: flex
+    flex-wrap: wrap
+    width: 200px
+  &--btn
+    width: 100px
+    height: 100px
+    opacity: 0.6
+    &:active
+      opacity: 1
+    &.active
+      opacity: 1
+
+.game-settings
+  width: 200px
+  &__round
+    color: $black2
+    margin: 15px 0
+  &__lose
+    color: $red
+    margin-bottom: 10px
+    max-width: 200px
+
+
+.btn
+  transition: all .3s
+  &:disabled
+    cursor: auto
+  &--blue
+    background: $blue
+    border-top-left-radius: 100%
+  &--red
+    background: $red
+    border-top-right-radius: 100%
+  &--yellow
+    background: $yellow
+    border-bottom-left-radius: 100%
+  &--green
+    background: $green
+    border-bottom-right-radius: 100%
+
+  &--start
+    padding: 10px 15px
+    text-transform: uppercase
+    background: #866FD7
+    color: $white
+    border-radius: 4px
+    &:hover
+      background: #6949D7
+
+.radio
+  &__label
+    display: flex
+    align-items: center
+    cursor: pointer
+  &__text
+    margin-left: 10px
+    text-transform: capitalize
+  &__input
+    cursor: pointer
+
+
+
+
